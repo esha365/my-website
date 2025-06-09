@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lensade - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color:  #c3ddfa;
+      color: #1e293b;
+    }
+
+    .topbar {
+      background:  #c3ddfa;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+
+    .navbar {
+      background: #0f172a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 80px;
+      background-color:  #c3ddfa;
+    }
+
+    .hero .content h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .hero .content p {
+      color: #475569;
+      margin-bottom: 30px;
+    }
+
+    .hero .content .buttons {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background-color: #1476d7;
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .hero-image {
+      width: 320px;
+      height: 320px;
+      background: #355e63;
+    }
+
+    .cta-link {
+      color: #1476d7;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: #0f172a;
+      color: white;
+      padding: 40px 20px;
+      font-size: 14px;
+    }
+    .features img {
+     width: 32px; /* Reduce size from 50px to 32px */
+     height: auto;
+     margin-bottom: 10px;
+    }
+
+    .features div {
+      max-width: 220px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div> Free Shipping and Free Return</div>
+    <div>+62 864 6444 2222 | hi@lensade.com</div>
+  </div>
+
+  <header class="navbar">
+    <div class="logo">lensade</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <small style="color: #c2410c; font-weight: bold;">
+  <img src="https://icones.pro/wp-content/uploads/2021/05/icone-oeil-beurre-orange.png" style="height: 1em; vertical-align: middle; margin-right: 5px;">
+  Lensade – Glasses & Eyewear
+      </small>
+      <h1>Perfect Glasses for Your Unique Style</h1>
+      <p>Purus commodo faucibusfermentum tortor  suscipit morbi fringilla ac. Egestas tempas  rhoncus pulvinar</p>
+      <div class="buttons">
+        <button class="btn">Browse Woman</button>
+        <button class="btn">Browse Men</button>
+      </div>
+      <div><a class="cta-link" href="#">Take a quiz to find your frames  ></a></div>
+    </div>
+    <div class="hero-image"></div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/shopping-bag.png" alt="shopping icon">
+      <p>Shop online and collect in one of our 1000 stores.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/maintenance.png" alt="adjustment icon">
+      <p>Free fitting and adjustment in offline store.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/shield.png" alt="insurance icon">
+      <p>We accept most insurance plans, online and offline.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/delivery.png" alt="shipping icon">
+      <p>Free shipping and 30-day returns online and offline.</p>
+    </div>
+  </section>
+  <style>
+  body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #e8f1fd;
+      color: #1e293b;
+    }
+
+    .commitment-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 60px 80px;
+      gap: 40px;
+    }
+
+    .commitment-left {
+      background-color: #355e63;
+      color: white;
+      padding: 60px 40px;
+      border-radius: 10px;
+      max-width:420px;
+      min-height:400px;
+      text-align:left;
+      box-shadow:0 4px 12px rgba(0,0,0,0.1);
+      display: flex;               
+      flex-direction: column;      
+      justify-content: flex-end;
+    }
+
+    .commitment-left h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .commitment-left p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .commitment-left button {
+      background-color: #0f172a;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      width: fit-content;       
+      align-self: flex-start;
+    }
+
+    .commitment-right {
+      flex: 2;
+    }
+
+    .commitment-right small {
+      color: #c2410c;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .commitment-right h2 {
+      font-size: 32px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .commitment-right p {
+      color: #64748b;
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+
+    .commitment-list h3 {
+      margin-bottom: 20px;
+    }
+
+    .commitment-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .commitment-item img {
+      width: 20px;
+      margin-right: 10px;
+      margin-top: 4px;
+    }
+
+    .commitment-item div {
+      font-size: 15px;
+    }
+
+    .commitment-item div strong {
+      font-weight: 600;
+    }
+
+    .brand-logos {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .brand-logos h4 {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    .logos {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .logos img {
+      max-height: 40px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="commitment-section">
+    <div class="commitment-left">
+      <h2>New Collection</h2>
+      <br>
+      <p>Vestibulum facilisis velit amet lacus. Metus sapien eu lorem dictumst at bibendum.</p>
+      <button>Shop Now!</button>
+    </div>
+
+    <div class="commitment-right">
+      <small>
+      <img src="https://icones.pro/wp-content/uploads/2021/05/icone-oeil-beurre-orange.png" style="height:1em; vertical-align:middle;margin: 5px";>  
+      About us</small>
+      <h2>Our Commitment to Quality Eyewear</h2>
+      <p>Eget nam congue neque nunc vel viverra lorem massa urna. Magna proin pellentesque cras amet et. Sit in mattis quam nec tellus.</p>
+
+      <div class="commitment-list">
+        <h3>Our Commitment :</h3>
+
+        <div class="commitment-item">
+          <img src="https://img.icons8.com/ios-filled/50/26e07f/checkmark.png" alt="check" />
+          <div>
+            <strong>Vision Clarity</strong><br>
+            Vestibulum facilisis velit amet lacus. Metus sapien eu lorem dictumst at bibendum gravida auctor.
+          </div>
+        </div>
+
+        <div class="commitment-item">
+          <img src="https://img.icons8.com/ios-filled/50/26e07f/checkmark.png" alt="check" />
+          <div>
+            <strong>Fashion and Style</strong><br>
+            Vestibulum facilisis velit amet lacus. Metus sapien eu lorem dictumst at bibendum gravida auctor.
+          </div>
+        </div>
+
+        <div class="commitment-item">
+          <img src="https://img.icons8.com/ios-filled/50/26e07f/checkmark.png" alt="check" />
+          <div>
+            <strong>Quality and Durability</strong><br>
+            Vestibulum facilisis velit amet lacus. Metus sapien eu lorem dictumst at bibendum gravida auctor.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr style="border: none; border-top: 1px solid #e2e2e2; margin: 40px 0;">
+  <section class="brand-logos">
+    <h4>Over <span style="color: #c2410c;">92+</span> Eyewear Brand</h4>
+    <div class="logos">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fculinaryinstitute.hawaii.edu%2F&psig=AOvVaw3iguCNyuA715wP2HF3ltnC&ust=1748942184365000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPi32ciz0o0DFQAAAAAdAAAAABAM" alt="Brand 1" />
+      <img src="https://www.craiyon.com/image/89YdJxY9Sr-7hTA64rQzeA" alt="Brand 2" />
+      <img src="https://img.icons8.com/ios-filled/100/000000/certificate.png" alt="Brand 3" />
+      <img src="https://img.icons8.com/ios-filled/100/000000/bank-cards.png" alt="Brand 4" />
+      <img src="https://th.bing.com/th/id/OIP.tGzjJrtjJEdJKf5wPAXQJQHaD5?rs=1&pid=ImgDetMain" alt="Brand 5" />
+    </div>
+  </section>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+    }
+
+    .services-section {
+      background-color: #f6dfc9;
+      padding: 60px 80px;
+    }
+
+    .services-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .services-header h2 {
+      font-size: 32px;
+      color: #111;
+    }
+
+    .services-header .see-all {
+      color: #0a5e77;
+      font-weight: 500;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 30px 20px;
+      text-align: left;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon-box {
+      width: 50px;
+      height: 50px;
+      background-color: #2e4a4f;
+      color: white;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    .service-card h3 {
+      font-size: 18px;
+      color: #111;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .service-card a {
+      color: #0a5e77;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="services-section">
+    <div class="services-header">
+      <h2>Our Services</h2>
+      <a href="#" class="see-all" style="#00009c">See All Services &#8250;</a>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="icon-box">📊</div>
+        <h3>Eye Exams</h3>
+        <p>Vestibulum facilisis velit amet lacus.</p>
+        <a href="#">Learn more &#8250;</a>
+      </div>
+
+      <div class="service-card">
+        <div class="icon-box">🧪</div>
+        <h3>Lens Fitting</h3>
+        <p>Vestibulum facilisis velit amet lacus.</p>
+        <a href="#">Learn more &#8250;</a>
+      </div>
+
+      <div class="service-card">
+        <div class="icon-box">👓</div>
+        <h3>Lens Upgrades</h3>
+        <p>Vestibulum facilisis velit amet lacus.</p>
+        <a href="#">Learn more &#8250;</a>
+      </div>
+
+      <div class="service-card">
+        <div class="icon-box">🖥️</div>
+        <h3>Virtual Try-On</h3>
+        <p>Vestibulum facilisis velit amet lacus.</p>
+        <a href="#">Learn more &#8250;</a>
+      </div>
+    </div>
+  </section>
+  <style>
+    body {
+      font-family: arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #1a1a1a;
+    }
+
+    .section {
+      padding: 60px 80px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .why-choose-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 40px;
+    }
+
+    .why-choose-header p {
+      max-width: 500px;
+      color: #666;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
+      padding: 40px;
+    }
+    .block {
+      min-height: 100px;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .number {
+      color: gray;
+      font-size: 12px;
+    }
+    .title {
+      font-weight: bold;
+    }
+    .line {
+      height: 2px;
+      background-color: #2a9dbb;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    .why-item.active h4 {
+      border-bottom: 2px solid #1a3c47;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    .promo-box {
+      display: flex;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-top: 80px;
+    }
+
+    .promo-left {
+      background-color: #e0e7f0;
+      padding: 40px;
+      flex: 1;
+    }
+    .promo-left span {
+      color: #b45309;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    .promo-left h3 {
+      font-size: 24px;
+      margin: 16px 0;
+      color: #1a1a1a;
+    }
+
+    .promo-left p {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .promo-left button {
+      margin-top: 20px;
+      background-color: #0a4f8f;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 24px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .promo-right {
+      background-color: #35585c;
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .promo-box {
+        flex-direction: column;
+      }
+
+      .promo-right {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+    <div class="why-choose-header">
+      <div>
+        <span style="color: #b45309; font-weight: 600; text-transform: uppercase;">
+          <img src="https://icones.pro/wp-content/uploads/2021/05/icone-oeil-beurre-orange.png" style="height: 20px; vertical-align: middle; margin-right: 8px;">
+          Why Choose Us</span>
+        <h2>Discover the Benefits of Choosing Us</h2>
+      </div>
+      <p>
+        Eget nam congue neque nunc vel viverra lorem massa urna. Magna proin pellentesque cras amet et. Sit in mattis quam nec tellus.
+      </p>
+    </div>
+    <div class="grid">
+      <div class="block content">
+        <div class="line" style="background-color: #e0e0e0;"></div>
+    <div class="number">01</div>
+    <div class="title">Unparalleled Selection</div>
+    <div>Lorem viverra eget mauris nunc.<br>Nullam lorem tincidunt viverra.</div>
+  </div>
+  <div class="block"></div>
+  <div class="block content">
+    <div class="line" style="background-color: #e0e0e0;"></div>
+    <div class="number">03</div>
+    <div class="title">Expert Guidance</div>
+    <div>Lorem viverra eget mauris nunc.<br>Nullam lorem tincidunt viverra.</div>
+  </div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block content">
+    <div class="line"></div>
+    <div class="number">02</div>
+    <div class="title">Premium Quality</div>
+    <div>Lorem viverra eget mauris nunc.<br>Nullam lorem tincidunt viverra.</div>
+  </div>
+  <div class="block"></div>
+  <div class="block content">
+    <div class="line" style="background-color: #e0e0e0;"></div>
+     <div class="number">04</div>
+    <div class="title">Personalized Service</div>
+    <div>Lorem viverra eget mauris nunc.<br>Nullam lorem tincidunt viverra.</div>
+  </div>
+</div>
+    <div class="promo-box">
+      <div class="promo-left">
+        <span>Promotions</span>
+        <h3>Limited–Time Offer –<br> Enjoy Exclusive Discounts on Premium Eyewear!</h3>
+        <p>
+          Eget nam congue neque nunc vel viverra lorem massa urna. Magna proin pellentesque cras amet et.
+        </p>
+        <button>Shop Now!</button>
+      </div>
+      <div class="promo-right"></div>
+    </div>
+  </section>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #111827;
+    }
+    
+    .best-sellers {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .section-tag {
+      text-transform: uppercase;
+      color: #92400e;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    .best-sellers h1 {
+      font-size: 2.2rem;
+      margin: 10px 0 20px;
+    }
+
+    .view-all {
+      color: #374151;
+      font-size: 0.9rem;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 40px;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .product-card {
+      background: #f9fafb;
+      border-radius: 10px;
+      padding: 15px;
+      width: 200px;
+      text-align: left;
+      position: relative;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .product-card h3 {
+      margin: 0 0 5px;
+      font-size: 1.1rem;
+    }
+
+    .color-options {
+      font-size: 0.8rem;
+      color: #6b7280;
+      margin-bottom: 10px;
+    }
+
+    .product-image {
+      background-color: #35555e;
+      height: 130px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .product-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .product-info span {
+      font-weight: bold;
+    }
+
+    .product-info a {
+      font-size: 0.9rem;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #111827;
+      color: #f9fafb;
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-left {
+      max-width: 250px;
+    }
+
+    .footer-left h2 {
+      margin-top: 0;
+    }
+
+    .social-icons span {
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     width: 60px;
+     height: 60px;
+     margin: 10px 10px 0 0;
+     font-size: 1.5rem;
+     background-color: #e5d2bc;
+     color: #0f1c22;
+     border-radius: 50%;
+     cursor: pointer; 
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 60px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links h4 {
+      margin-top: 0;
+    }
+
+    .footer-links ul {
+      list-style: none;
+      padding: 0;
+      line-height: 1.8;
+    }
+
+    .footer-links ul li {
+      cursor: pointer;
+    }
+
+    .footer-links p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .footer-bottom {
+      width: 100%;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      border-top: 2px solid #e8ecf2;
+      padding-top: 10px;
+      font-size: 0.8rem;
+    }
+
+    .footer-bottom a {
+      color: #f9fafb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="best-sellers">
+    <p class="section-tag"><span>👁</span> Best Sellers</p>
+    <h1>Explore Customer Favorites<br>in Every Style</h1>
+    <a href="#" class="view-all" style="#00009c">View All &#8250;</a>
+
+    <div class="products">
+      <div class="product-card">
+        <h3>Gleam Specs</h3>
+        <p class="color-options">Color Options: 3</p>
+        <div class="product-image"></div>
+        <div class="product-info">
+          <span>$575.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <h3>Prisma Vision</h3>
+        <p class="color-options">Color Options: 3</p>
+        <div class="product-image"></div>
+        <div class="product-info">
+          <span>$768.00</span>
+          <a href="#">Add To Cart</a>
+          </div>
+       </div>
+      <div class="product-card">
+        <h3>Stellar Shades</h3>
+        <p class="color-options">Color Options: 3</p>
+        <div class="product-image"></div>
+        <div class="product-info">
+          <span>$665.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <h3>Mirage Optics</h3>
+        <p class="color-options">Color Options: 3</p>
+        <div class="product-image"></div>
+        <div class="product-info">
+          <span>$865.00</span>
+          <a href="#">Add To Cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-left">
+      <h1>lensade</h1>
+      <br>
+      <p>Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt senectus.</p>
+      <div class="social-icons">
+        <span>🐦</span>
+        <span>▶️</span>
+        <span>📸</span>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h3>Navigation</h3>
+        <br>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our Services</li>
+          <li>Our Team</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <br>
+        <ul>
+          <li>Eye Exams</li>
+          <li>Virtual Try-On</li>
+          <li>Lens Fitting</li>
+          <li>Lens Upgrades</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <br>
+        <p>Our Support and Sales team is available 24/7 to answer your queries</p>
+        <p>📍 123 Main St, Suite 500, New York, NY 10001</p>
+        <p>📞 +1 (333) 000-0000</p>
+      </div>
+    </div>
+      <div class="footer-bottom">
+      <p>Copyright © 2023 Lensade | Design by TokoTema</p>
+      <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+  </body>
+</html>
